@@ -34,4 +34,4 @@ const like = 'sample';
 
 ## Additional information
 
-You can find the example code [here](https://github.com/gikwegbu/flutter_item_slideable/blob/main/example/example.dart)
+You can find the example code [here](https://github.com/gikwegbu/widget_marquee/tree/main/lib/examples)
