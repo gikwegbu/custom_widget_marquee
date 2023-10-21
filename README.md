@@ -1,4 +1,4 @@
-## WidgetMarquee
+## CustomWidgetMarquee
 
 This is a simple package that gives you the power to turn any Flutter Widget into a `Marquee`. With this, you can further control the speed and also allows for manual `swiping gestures`.
 
@@ -48,7 +48,7 @@ import 'package:custom_widget_marquee/custom_widget_marquee.dart';
 ## Basic Usage
 
 ```dart
-    WidgetMarquee(
+    CustomWidgetMarquee(
         animationDuration: const Duration(seconds: 20),
         backDuration: const Duration(seconds: 20),
         pauseDuration: const Duration(seconds: 2),
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 20),
                 backDuration: const Duration(seconds: 20),
                 pauseDuration: const Duration(seconds: 2),
@@ -147,7 +147,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 40),
                 backDuration: const Duration(seconds: 40),
                 pauseDuration: const Duration(seconds: 2),
@@ -229,7 +229,7 @@ class MyApp extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 40),
                 backDuration: const Duration(seconds: 40),
                 pauseDuration: const Duration(seconds: 2),
@@ -254,7 +254,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 40),
                 backDuration: const Duration(seconds: 40),
                 pauseDuration: const Duration(seconds: 2),
