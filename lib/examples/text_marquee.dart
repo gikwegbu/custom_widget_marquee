@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_marquee/src/widget_marquee.dart';
+import 'package:custom_widget_marquee/src/custom_widget_marquee.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 40),
                 backDuration: const Duration(seconds: 40),
                 pauseDuration: const Duration(seconds: 2),
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                       _textList.length,
                       (index) => Text(
                         _textList[index],
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 14,
                         ),
                       ),
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              WidgetMarquee(
+              CustomWidgetMarquee(
                 animationDuration: const Duration(seconds: 40),
                 backDuration: const Duration(seconds: 40),
                 pauseDuration: const Duration(seconds: 2),
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                       _textList.length,
                       (index) => Text(
                         _textList[index],
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 14,
                         ),
                       ),

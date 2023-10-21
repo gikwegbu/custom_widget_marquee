@@ -36,12 +36,12 @@ In the `pubspec.yaml` of your flutter project, add the following to your depende
 
 ```dart
 dependencies:
-  widget_marquee: <latest_version>
+  custom_widget_marquee: <latest_version>
 ```
 In the file you may wish to implement this Marquee
 
 ```dart
-import 'package:widget_marquee/widget_marquee.dart';
+import 'package:custom_widget_marquee/custom_widget_marquee.dart';
 ```
 
 
@@ -88,7 +88,7 @@ import 'package:widget_marquee/widget_marquee.dart';
 - For Widget Image Marquee
 ```dart
 import 'package:flutter/material.dart';
-import 'package:widget_marquee/src/widget_marquee.dart';
+import 'package:custom_widget_marquee/src/custom_widget_marquee.dart';
 
 void main() {
   runApp(MyApp());
@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Widget Marquee Demo',
+      title: 'Custom Widget Marquee Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -203,7 +203,7 @@ class MyApp extends StatelessWidget {
 - For Widget Text Marquee
 ```dart
 import 'package:flutter/material.dart';
-import 'package:widget_marquee/src/widget_marquee.dart';
+import 'package:custom_widget_marquee/src/custom_widget_marquee.dart';
 
 void main() {
   runApp(MyApp());
@@ -216,7 +216,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Widget Marquee Demo',
+      title: 'Custom Widget Marquee Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -296,4 +296,4 @@ class MyApp extends StatelessWidget {
 
 ## Additional information
 
-You can find the example code [here](https://github.com/gikwegbu/widget_marquee/tree/main/lib/examples)
+You can find the example code [here](https://github.com/gikwegbu/custom_widget_marquee/tree/main/lib/examples)

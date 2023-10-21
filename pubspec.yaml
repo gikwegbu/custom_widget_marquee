@@ -1,4 +1,4 @@
-name: widget_marquee
+name: custom_widget_marquee
 description: This is a Flutter package that can enable you turn any Widget into a Marquee
 version: 0.0.1
 homepage:

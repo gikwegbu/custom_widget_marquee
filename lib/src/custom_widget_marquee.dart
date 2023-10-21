@@ -1,10 +1,10 @@
-library widget_marquee;
+library custom_widget_marquee;
 
 import 'package:flutter/material.dart';
 
 enum DirectionOption { oneDirection, twoDirection }
 
-class WidgetMarquee extends StatelessWidget {
+class CustomWidgetMarquee extends StatelessWidget {
   final Widget child;
   final TextDirection textDirection;
   final Axis direction;
@@ -15,7 +15,7 @@ class WidgetMarquee extends StatelessWidget {
   final Curve forwardAnimation;
   final Curve backwardAnimation;
   final bool autoRepeat;
-  WidgetMarquee({
+  CustomWidgetMarquee({
     Key? key,
     required this.child,
     this.direction = Axis.horizontal,
