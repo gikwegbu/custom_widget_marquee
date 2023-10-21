@@ -1,7 +1,7 @@
 name: custom_widget_marquee
 description: This is a Flutter package that can enable you turn any Widget into a Marquee
 version: 0.0.1
-homepage:
+homepage: https://github.com/gikwegbu/custom_widget_marquee
 
 environment:
   sdk: ">=2.16.2 <3.3.0"
