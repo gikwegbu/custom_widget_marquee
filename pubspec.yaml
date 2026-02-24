@@ -1,11 +1,22 @@
 name: custom_widget_marquee
-description: This is a Flutter package that can enable you turn any Widget into a Marquee
-version: 0.0.1
+description: Transform any Flutter widget into a customizable scrollable marquee. Provides fine-grained animation controls for bi-directional and single-direction scrolling.
+version: 0.0.2
 homepage: https://github.com/gikwegbu/custom_widget_marquee
+repository: https://github.com/gikwegbu/custom_widget_marquee
+issue_tracker: https://github.com/gikwegbu/custom_widget_marquee/issues
+license: MIT
 
 environment:
-  sdk: ">=2.16.2 <3.3.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+platforms:
+  android:
+  ios:
+  web:
+  macos:
+  linux:
+  windows:
 
 dependencies:
   flutter:
