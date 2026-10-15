@@ -88,7 +88,7 @@ import 'package:custom_widget_marquee/custom_widget_marquee.dart';
 - For Widget Image Marquee
 ```dart
 import 'package:flutter/material.dart';
-import 'package:custom_widget_marquee/src/custom_widget_marquee.dart';
+import 'package:custom_widget_marquee/custom_widget_marquee.dart';
 
 void main() {
   runApp(MyApp());
@@ -203,7 +203,7 @@ class MyApp extends StatelessWidget {
 - For Widget Text Marquee
 ```dart
 import 'package:flutter/material.dart';
-import 'package:custom_widget_marquee/src/custom_widget_marquee.dart';
+import 'package:custom_widget_marquee/custom_widget_marquee.dart';
 
 void main() {
   runApp(MyApp());
@@ -296,4 +296,4 @@ class MyApp extends StatelessWidget {
 
 ## Additional information
 
-You can find the example code [here](https://github.com/gikwegbu/custom_widget_marquee/tree/main/lib/examples)
+You can find the example code [here](https://github.com/gikwegbu/custom_widget_marquee/tree/main/example)
